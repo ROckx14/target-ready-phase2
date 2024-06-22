@@ -1,0 +1,29 @@
+.analysis-result-box {
+    color: #8c1f27;
+    padding: 20px;
+    border: 2px solid #8c1f27;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(16, 136, 183);
+  }
+  

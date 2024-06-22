@@ -1,0 +1,52 @@
+.analysis-search-box {
+  color: black;
+  padding: 20px;
+  /* border: 2px solid #d6d6d6; */
+  border: 2px solid #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 5px auto;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(16, 136, 183);
+}
+
+.error-message {
+  color: #8c1f27;
+  margin-top: 10px;
+}
+
+.file-upload-heading {
+  margin: 0%;
+}
+
+.result-box {
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #8c1f27;
+  border-radius: 20px;
+  font-size: larger;
+  /* font-weight: bold; */
+  color: #333333;
+  background-color: #e7e7e7;
+}

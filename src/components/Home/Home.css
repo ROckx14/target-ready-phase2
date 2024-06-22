@@ -1,0 +1,110 @@
+.home-container {
+  padding: 20px;
+  /* border: 2px solid #8c1f27; */
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 5px auto;
+  background-color: #f4f4f4;
+  /* background-color: white; */
+  font-size: x-large;
+}
+
+.red-text {
+  color: #a32a33;
+  margin-bottom: 10px;
+}
+
+.heading-text {
+  margin-top: 0px;
+}
+
+.heading-logo {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 80px;
+}
+
+/* button {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: rgb(16, 136, 183);
+} */
+
+.file-upload-box,
+.analysis-search-box {
+  padding: 20px;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.file-upload-box input,
+.analysis-search-box input {
+  padding: 10px;
+  /* margin-right: 10px; */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.file-upload-box .button-group,
+.analysis-search-box .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+.home-nav-links {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* Persistent bottom border */
+  max-width: 600px;
+  margin-top: 30px;
+  font-size: large;
+  padding-bottom: 10px;
+  transition: border-bottom 0.3s ease;
+  margin-bottom: 10px;
+  /* Smooth transition for border change */
+}
+
+.home-nav-links.active {
+  border-bottom-width: 4px;
+  /* Thicker bottom border for active link */
+}
+
+.file-upload-link,
+.analysisID-link {
+  border-bottom: 1px solid #333333;
+  min-width: 300px;
+}
+
+.home-nav-links:hover {
+  border-bottom-width: 4px;
+  /* Thicker bottom border on hover */
+}
